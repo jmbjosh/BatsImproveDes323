@@ -1,7 +1,13 @@
+main {
+    margin: 0px;
+    padding: 0px;
+}
+
 header {
     background-color: #282828;
     width: 100%;
     padding: 5px;
+    position: sticky;
     display: grid;
     grid-template-columns: 50% 50%;
 }
