@@ -8,6 +8,9 @@
     color: #D7511D;
 }
 
+.gray {
+    background-color: #282828;
+}
 
 
 /* ===== typography ===== */
@@ -46,7 +49,7 @@
 
 
 
-/* ===== font awsome ===== */
+/* ===== font awesome ===== */
 .fas {
     font-size: 30pt;
     text-align: right;
@@ -137,6 +140,8 @@ footer {
 
 
 
+
+
 /* ===== for the side menu ====*/
 
 /* The sidepanel menu */
@@ -189,10 +194,10 @@ footer {
 .openbtn {
     font-size: 20px;
     cursor: pointer;
-    background-color: #111;
     color: white;
     padding: 10px 15px;
     border: none;
+    text-align: right;
 }
 
 .openbtn:hover {
