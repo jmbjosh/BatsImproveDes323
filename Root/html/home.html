@@ -8,25 +8,44 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        function openNav() {
+            document.getElementById("mySidepanel").style.width = "250px";
+        }
+
+        /* Set the width of the sidebar to 0 (hide it) */
+        function closeNav() {
+            document.getElementById("mySidepanel").style.width = "0";
+        }
+    </script>
 
 </head>
 
 <body>
     <header>
         <div id="logo">
-            <a>
-                <img src="../assets/images/Logo_Vector_v2.svg">
-            </a>
+            <img src="../assets/images/Logo_Vector_v2.svg">
         </div>
 
-        <i class="fas fa-bars white"></i>
+        <button class="openbtn" onclick="openNav()">
+            <i class="fas fa-bars white"></i>
+        </button>
+
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+
     </header>
 
     <main>
     </main>
 
     <footer>
-        <section>
+        <section id="footerSocial">
             <div>
                 <a>
                     <i class="fab fa-facebook-square"></i>
@@ -60,12 +79,10 @@
                 </p>
             </div>
 
-            <div class="map">
-                <img src="../assets/images/footerMap.svg">
+            <div>
+                <img src="../assets/images/footerMap.svg" id="map">
             </div>
         </section>
     </footer>
 
-</body>
-
-</html>
+</body></html>
