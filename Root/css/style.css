@@ -12,7 +12,7 @@
     background-color: #282828;
 }
 
-.lightorange {
+.lightOrange {
     background-color: #d98e58;
 }
 
@@ -48,7 +48,6 @@
     font-size: 18px;
     line-height: 24px;
     font-family: 'Baloo Tamma 2', cursive;
-    color: #ffffff;
 }
 
 .caption {
@@ -79,7 +78,7 @@
 
 .row5 {
     display: grid;
-    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20%;
 }
 
 .coll5 {
@@ -112,7 +111,7 @@ header {
 footer {
     display: grid;
     grid-template-columns: 50% 50%;
-    position: absolute;
+    position: relative;
     bottom: 0px;
 }
 
@@ -122,11 +121,31 @@ footer {
     justify-content: flex-end;
 }
 
-.fiveByOne {
+.oneToFour {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.fourToEnd {
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
+.threeToEnd {
+    grid-column-start: 3;
+    grid-column-end: 6;
+}
+
+.oneToThree {
     grid-column-start: 1;
     grid-column-end: 3;
 }
 
+.center {
+    text-align: center;
+    height: 200px;
+
+}
 
 /* ===== boxmodel ===== */
 body {
