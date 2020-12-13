@@ -69,16 +69,21 @@ h2 {
     line-height: 28px;
 }
 
-li {
-    font-size: 18px;
-    line-height: 24px;
-    font-family: 'Baloo Tamma 2', cursive;
+.andMore a:hover {
+    color: #d98e58;
 }
 
+.diversity button {
+    font-size: 20px;
+}
 
+.members button {
+    font-size: 20px;
+}
 
-
-
+.outReach button {
+    font-size: 20px;
+}
 
 
 /* ===== font awesome ===== */
@@ -170,8 +175,15 @@ footer {
     justify-content: flex-end;
 }
 
+.floatLeft {
+    float: left;
+    margin: 15px;
+}
 
-
+.floatRight {
+    float: right;
+    margin: 15px;
+}
 
 
 /* ===== boxmodel ===== */
@@ -230,6 +242,7 @@ footer {
 .history {
     padding: 50px;
     margin: 50px;
+    width: 95%;
 }
 
 .vision {
@@ -251,10 +264,17 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 50px;
+    padding-bottom: 15px;
 }
 
-.outreach {
+.andMore a {
+    color: #ffffff;
+    margin-right: 30px;
+    background-color:
+}
+
+
+.outReach {
     padding: 50px;
     margin: 50px;
 }
@@ -263,6 +283,40 @@ footer {
     padding-top: 10px;
 }
 
+.shadowDown {
+    box-shadow: 0px 4px 12px #000000;
+}
+
+
+.diversity button {
+    background-color: #D7511D;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 0px 2px 5px #000000;
+
+}
+
+.members button {
+    background-color: #D7511D;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 0px 2px 5px #000000;
+
+}
+
+.outReach button {
+    background-color: #D7511D;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 0px 2px 5px #000000;
+
+}
 
 
 /* ===== background ===== */
