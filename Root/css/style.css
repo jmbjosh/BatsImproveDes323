@@ -24,6 +24,9 @@
     background-color: #9c3b25;
 }
 
+
+
+
 /* ===== typography ===== */
 #TitleSP {
     font-family: Days One;
@@ -56,6 +59,11 @@
     font-family: 'Baloo Tamma 2', cursive;
 }
 
+.center {
+    text-align: center;
+}
+
+
 
 
 
@@ -70,6 +78,9 @@
     display: inline;
     color: #D7511D;
 }
+
+
+
 
 
 /* ===== Grids ===== */
@@ -110,6 +121,9 @@
 }
 
 
+
+
+
 /* ===== layout ===== */
 
 
@@ -142,11 +156,9 @@ footer {
     justify-content: flex-end;
 }
 
-.center {
-    text-align: center;
-    height: 200px;
 
-}
+
+
 
 /* ===== boxmodel ===== */
 body {
@@ -184,12 +196,62 @@ footer {
     height: 150px;
 }
 
+.textCenter {
+    display: flex;
+    align-items: center;
+}
+
+.history {
+    height: 250px;
+    padding: 50px;
+}
+
+.felxContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.vision {
+    padding: 50px;
+    margin: 50px;
+}
+
+.diversity {
+    padding: 50px;
+    margin: 50px;
+}
+
+.members {
+    padding: 50px;
+    margin: 50px;
+}
+
+.staff {
+    padding: 50px;
+    margin: 50px;
+}
+
+.outreach {
+    padding: 50px;
+    margin: 50px;
+}
+
+
+
+
+
 
 /* ===== background ===== */
 header,
 footer {
     background-color: #282828;
 }
+
+
+
+
 
 
 
