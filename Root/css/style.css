@@ -3,477 +3,420 @@
 /* ===== color ===== */
 
 .white {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .orange {
-    color: #D7511D;
+  color: #d7511d;
 }
 
 .gray {
-    background-color: #282828;
+  background-color: #282828;
 }
 
 .lightOrange {
-    background-color: #d98e58;
+  background-color: #d98e58;
 }
 
 .purple {
-    background-color: #753780;
+  background-color: #753780;
 }
 
 .brick {
-    background-color: #9c3b25;
+  background-color: #9c3b25;
 }
-
-
-
 
 /* ===== typography ===== */
 #titleSP {
-    font-family: 'Days One', sans-serif;
-    font-size: 36px;
-    line-height: 40px;
+  font-family: "Days One", sans-serif;
+  font-size: 36px;
+  line-height: 40px;
 }
 
 .title {
-    font-family: 'Baloo Tamma 2';
-    font-size: 36px;
-    line-height: 40px;
+  font-family: "Baloo Tamma 2";
+  font-size: 36px;
+  line-height: 40px;
 }
 
 .showstitle {
-     font-family: 'Days One', sans-serif;
-    font-size: 36px;
-    line-height: 40px;
-    font-weight: 1000;
-    color: #D7511D;
+  font-family: "Days One", sans-serif;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 1000;
+  color: #d7511d;
 }
 
-
 .subTile {
-    font-family: 'Baloo Tamma 2';
-    font-size: 24px;
-    line-height: 28px;
-
+  font-family: "Baloo Tamma 2";
+  font-size: 24px;
+  line-height: 28px;
 }
 
 .bodyCopy {
-    font-size: 18px;
-    line-height: 24px;
-    font-family: 'Baloo Tamma 2', cursive;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Baloo Tamma 2", cursive;
 }
 
 .caption {
-    font-size: 12px;
-    line-height: 18px;
-    font-family: 'Baloo Tamma 2', cursive;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: "Baloo Tamma 2", cursive;
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 h2 {
-    font-family: 'Baloo Tamma 2';
-    font-size: 24px;
-    line-height: 28px;
+  font-family: "Baloo Tamma 2";
+  font-size: 24px;
+  line-height: 28px;
 }
 
 .andMore a:hover {
-    color: #d98e58;
+  color: #d98e58;
 }
 
 .card h3 {
-    font-size: 18px;
-    line-height: 24px;
-    font-family: 'Baloo Tamma 2', cursive;
-    font-weight: 600;
-    color: #753780;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Baloo Tamma 2", cursive;
+  font-weight: 600;
+  color: #753780;
 }
 
 .card h4 {
-    font-size: 18px;
-    line-height: 24px;
-    font-family: 'Baloo Tamma 2', cursive;
-    font-weight: 600;
-    color: #7B7B7B;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Baloo Tamma 2", cursive;
+  font-weight: 600;
+  color: #7b7b7b;
 }
 
 .card button,
 .container a {
-    font-size: 18px;
-    line-height: 24px;
-    font-family: 'Baloo Tamma 2', cursive;
-    font-weight: 600;
-    text-decoration: none;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Baloo Tamma 2", cursive;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 .container p {
-    font-size: 18px;
-    line-height: 24px;
-    font-family: 'Baloo Tamma 2', cursive;
-
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Baloo Tamma 2", cursive;
 }
-
-
-
-
 
 /* ===== font awesome ===== */
 .fas {
-    font-size: 30pt;
-    text-align: right;
+  font-size: 30pt;
+  text-align: right;
 }
 
 .fab {
-    font-size: 15pt;
-    display: inline;
-    color: #D7511D;
+  font-size: 15pt;
+  display: inline;
+  color: #d7511d;
 }
-
-
-
-
 
 /* ===== Grids ===== */
 
 .row5 {
-    display: grid;
-    grid-template-rows: 20% 20% 20% 20%;
+  display: grid;
+  grid-template-rows: 20% 20% 20% 20%;
 }
 
 .coll5 {
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 
 #footerMapInfo {
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
 }
-
-
-
-
-
-
-
-
-
 
 /* ===== layout ===== */
 
-
 #logo {
-    justify-content: center;
+  justify-content: center;
 }
 
 header {
-    position: sticky;
-    display: grid;
-    grid-template-columns: 50% 50%;
+  position: sticky;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
 .map {
-    grid-column-start: 2;
-    grid-column-end: 5;
-
+  grid-column-start: 2;
+  grid-column-end: 5;
 }
 
 footer {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    bottom: 0px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  bottom: 0px;
 }
 
 #footerSocial {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .homeText {
-    width: 100%;
+  width: 100%;
 }
-
-
-
-
 
 /* ===== boxmodel ===== */
 body {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 #logo {
-    width: 150px;
+  width: 150px;
 }
 
 header {
-    padding: 50px;
+  padding: 50px;
 }
 
 a footer {
-    margin: 30px;
+  margin: 30px;
 }
 
 #map {
-    height: 150px;
+  height: 150px;
 }
 
 .mapText {
-    padding-right: 20px;
-    text-align: right;
+  padding-right: 20px;
+  text-align: right;
 }
 
 footer {
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .textCenter {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .aboutUs {
-    padding: 50px;
+  padding: 50px;
 }
 
 .flexContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: nowrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
 }
 
 .extraPadding {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 .shadowDown {
-    box-shadow: 0px 4px 12px #000000;
+  box-shadow: 0px 4px 12px #000000;
 }
 
 .andMore {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 15px;
 }
 
 .andMore a {
-    color: #ffffff;
-    margin-right: 30px;
-    background-color:
+  color: #ffffff;
+  margin-right: 30px;
+  background-color: ;
 }
-
 
 .banner button {
-    background-color: #D7511D;
-    width: 250px;
-    height: 50px;
-    border-radius: 5px;
-    border: 0px;
-    box-shadow: 0px 2px 5px #000000;
+  background-color: #d7511d;
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  border: 0px;
+  box-shadow: 0px 2px 5px #000000;
 }
-
 
 .container button,
 .lightOrange a,
 .purple a,
 .brick a,
-.gray a 
-.container button {
-    background-color: #D7511D;
-    color: #ffffff;
-    width: 100%;
-    height: 50px;
-    border-radius: 0px;
-    border: 0px;
+.gray a .container button {
+  background-color: #d7511d;
+  color: #ffffff;
+  width: 100%;
+  height: 50px;
+  border-radius: 0px;
+  border: 0px;
 }
-
-
 
 .container a,
 .lightOrange a,
 .purple a,
 .brick a,
 .gray a {
-    background-color: #D7511D;
-    color: #ffffff;
-    width: 100%;
-    height: 50px;
-    border-radius: 0px;
-    border: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    bottom: 0px;
+  background-color: #d7511d;
+  color: #ffffff;
+  width: 100%;
+  height: 50px;
+  border-radius: 0px;
+  border: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0px;
 }
-
-
-
-
 
 /* ===== background ===== */
 header,
 footer {
-    background-color: #282828;
+  background-color: #282828;
 }
 
 .banner img {
-    width: 100%;
+  width: 100%;
 }
 
 .banner {
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: white;
 }
 
 .bannerText {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .bannerText2 {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
 }
 
 .shows {
-    background-image: url("../assets/images/Banner.svg");
-    width: 100%;
-    height: 100%;
+  background-image: url("../assets/images/Banner.svg");
+  width: 100%;
+  height: 100%;
 }
 
 main {
-    background-image: url("../assets/images/backpattern.svg");
-    width: 100%;
-    height: 100%;
+  background-image: url("../assets/images/backpattern.svg");
+  width: 100%;
+  height: 100%;
 }
-
 
 .reSize {
-    width: 500px;
-    height: 100%;
-
+  width: 500px;
+  height: 100%;
 }
-
-
 
 /* ===== card stuf ===== */
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    width: 50%;
-    margin: 3%;
-    background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 50%;
+  margin: 3%;
+  background-color: #ffffff;
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .container {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .card img {
-    width: 100%;
+  width: 100%;
 }
 
 .container div {
-    padding: 0px 5%;
-    background-color: #ffffff;
-
-
+  padding: 0px 5%;
+  background-color: #ffffff;
 }
-
-
-
-
-
-
-
-
-
-
 
 /* ===== for the side menu ====*/
 #mySidepanel a {
-    font-size: 24px;
-    line-height: 24px;
-    font-family: 'Baloo Tamma 2', cursive;
+  font-size: 24px;
+  line-height: 24px;
+  font-family: "Baloo Tamma 2", cursive;
 }
-
 
 /* The sidepanel menu */
 .sidepanel {
-    height: 100%;
-    /* Specify a height */
-    width: 0;
-    /* 0 width - change this with JavaScript */
-    position: fixed;
-    /* Stay in place */
-    z-index: 1;
-    /* Stay on top */
-    top: 0;
-    right: 0;
-    background-color: #111;
-    /* Black*/
-    overflow-x: hidden;
-    /* Disable horizontal scroll */
-    padding-top: 60px;
-    /* Place content 60px from the top */
-    transition: 0.5s;
-    /* 0.5 second transition effect to slide in the sidepanel */
+  height: 100%;
+  /* Specify a height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  right: 0;
+  background-color: #111;
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidepanel */
 }
 
 /* The sidepanel links */
 .sidepanel a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-family: 'Baloo Tamma 2', cursive;
-    font-size: 36px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-family: "Baloo Tamma 2", cursive;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidepanel a:hover {
-    color: #f1f1f1;
+  color: #f1f1f1;
 }
 
 /* Position and style the close button (top right corner) */
 .sidepanel .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    margin-left: 100px;
+  position: absolute;
+  top: 0;
+  right: 25px;
+  margin-left: 100px;
 }
 
 /* Style the button that is used to open the sidepanel */
 .openbtn {
-    cursor: pointer;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    text-align: right;
+  cursor: pointer;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  text-align: right;
 }
