@@ -259,46 +259,6 @@ footer {
     flex-wrap: nowrap;
 }
 
-.history {
-    padding: 50px;
-    margin: 50px;
-    width: 95%;
-}
-
-.vision {
-    padding: 50px;
-    margin: 50px;
-}
-
-.diversity {
-    padding: 50px;
-    margin: 50px;
-}
-
-.members {
-    padding: 50px;
-    margin: 50px;
-}
-
-.andMore {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-bottom: 15px;
-}
-
-.andMore a {
-    color: #ffffff;
-    margin-right: 30px;
-    background-color:
-}
-
-
-.outReach {
-    padding: 50px;
-    margin: 50px;
-}
-
 .extraPadding {
     padding-top: 10px;
 }
@@ -368,20 +328,34 @@ footer {
     background-color: #282828;
 }
 
-.homeBanner {
-    background-image: url("../assets/images/Splash.png");
+.homeBanner img,
+    {
     width: 100%;
-    height: 500px;
 }
+
+.homeBanner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bannerText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .shows {
     background-image: url("../assets/images/Banner.svg");
     width: 100%;
     height: 500px;
 }
+
 main {
     background-image: url("../assets/images/backpattern.svg");
     width: 100%;
-    height:100%;
+    height: 100%;
 }
 
 
