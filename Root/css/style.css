@@ -321,9 +321,18 @@ footer {
     bottom: 0px;
 }
 
+.linkas a {
+    background-color: #753780;
+    color: whitesmoke;
+    width: 100%;
+    height: 50px;
+    hover-color: black;
+}
 
-
-
+.linkas :hover {
+  background-color: black;
+    transition-duration: .2s;
+}
 
 /* ===== background ===== */
 header,
