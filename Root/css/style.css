@@ -42,6 +42,15 @@
     line-height: 40px;
 }
 
+.showstitle {
+     font-family: 'Days One', sans-serif;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 1000;
+    color: #D7511D;
+}
+
+
 .subTile {
     font-family: 'Baloo Tamma 2';
     font-size: 24px;
@@ -277,7 +286,7 @@ footer {
 }
 
 
-.container a,
+.container button,
 .lightOrange a,
 .purple a,
 .brick a,
