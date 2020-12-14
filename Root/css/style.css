@@ -197,7 +197,9 @@ footer {
     justify-content: flex-end;
 }
 
-
+.homeText {
+    width: 100%;
+}
 
 
 
@@ -286,11 +288,15 @@ footer {
 }
 
 
+<<<<<<< Updated upstream
 .container button,
 .lightOrange a,
 .purple a,
 .brick a,
 .gray a {
+=======
+.container button {
+>>>>>>> Stashed changes
     background-color: #D7511D;
     color: #ffffff;
     width: 100%;
@@ -298,6 +304,8 @@ footer {
     border-radius: 0px;
     border: 0px;
 }
+
+
 
 .container a,
 .lightOrange a,
