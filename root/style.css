@@ -375,13 +375,13 @@ footer {
 }
 
 .shows {
-    background-image: url("../assets/images/Banner.svg");
+    background-image: url("/root/images/Banner.svg");
     width: 100%;
     height: 500px;
 }
 
 main {
-    background-image: url("../assets/images/backpattern.svg");
+    background-image: url("/root/images/backpattern.svg");
     width: 100%;
     height: 100%;
 }
