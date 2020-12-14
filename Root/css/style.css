@@ -28,8 +28,8 @@
 
 
 /* ===== typography ===== */
-#TitleSP {
-    font-family: 'Days One';
+#titleSP {
+    font-family: 'Days One', sans-serif;
     font-size: 36px;
     line-height: 40px;
 }
@@ -107,6 +107,16 @@ h2 {
     font-family: 'Baloo Tamma 2', cursive;
     font-weight: 600;
 }
+
+.container p {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Baloo Tamma 2', cursive;
+
+}
+
+
+
 
 /* ===== font awesome ===== */
 .fas {
@@ -187,7 +197,6 @@ header {
 footer {
     display: grid;
     grid-template-columns: 50% 50%;
-    position: relative;
     bottom: 0px;
 }
 
@@ -265,6 +274,19 @@ footer {
 
 .shadowDown {
     box-shadow: 0px 4px 12px #000000;
+}
+
+.andMore {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 15px;
+}
+
+.andMore a {
+    color: #ffffff;
+    margin-right: 30px;
+    background-color:
 }
 
 
