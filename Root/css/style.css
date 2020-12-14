@@ -89,11 +89,13 @@ h2 {
     color: #7B7B7B;
 }
 
-.card button {
+.card button,
+.container a {
     font-size: 18px;
     line-height: 24px;
     font-family: 'Baloo Tamma 2', cursive;
     font-weight: 600;
+    text-decoration: none;
 }
 
 .container p {
@@ -102,6 +104,7 @@ h2 {
     font-family: 'Baloo Tamma 2', cursive;
 
 }
+
 
 
 
@@ -195,6 +198,11 @@ footer {
 }
 
 
+
+
+
+
+
 /* ===== boxmodel ===== */
 body {
     margin: 0px;
@@ -268,7 +276,7 @@ footer {
 }
 
 
-.homeBanner button {
+.banner button {
     background-color: #D7511D;
     width: 250px;
     height: 50px;
@@ -287,12 +295,19 @@ footer {
     border: 0px;
 }
 
+.container a {
+    background-color: #D7511D;
+    color: #ffffff;
+    width: 100%;
+    height: 50px;
+    border-radius: 0px;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0px;
 
-.histImg {
-    height: 50%;
-    width: 50%;
 }
-
 
 
 
@@ -302,11 +317,11 @@ footer {
     background-color: #282828;
 }
 
-.homeBanner img {
+.banner img {
     width: 100%;
 }
 
-.homeBanner {
+.banner {
     text-align: center;
     color: white;
 }
@@ -316,6 +331,14 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.bannerText2 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
 }
 
 .shows {
@@ -359,11 +382,9 @@ main {
 .container div {
     padding: 0px 5%;
     background-color: #ffffff;
+
+
 }
-
-
-
-
 
 
 
