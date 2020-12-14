@@ -73,18 +73,6 @@ h2 {
     color: #d98e58;
 }
 
-.diversity button {
-    font-size: 20px;
-}
-
-.members button {
-    font-size: 20px;
-}
-
-.outReach button {
-    font-size: 20px;
-}
-
 .card h3 {
     font-size: 18px;
     line-height: 24px;
@@ -206,16 +194,6 @@ footer {
     justify-content: flex-end;
 }
 
-.floatLeft {
-    float: left;
-    margin: 15px;
-}
-
-.floatRight {
-    float: right;
-    margin: 15px;
-}
-
 
 /* ===== boxmodel ===== */
 body {
@@ -290,36 +268,6 @@ footer {
 }
 
 
-.diversity button {
-    background-color: #D7511D;
-    width: 250px;
-    height: 50px;
-    border-radius: 5px;
-    border: 0px;
-    box-shadow: 0px 2px 5px #000000;
-
-}
-
-.members button {
-    background-color: #D7511D;
-    width: 250px;
-    height: 50px;
-    border-radius: 5px;
-    border: 0px;
-    box-shadow: 0px 2px 5px #000000;
-
-}
-
-.outReach button {
-    background-color: #D7511D;
-    width: 250px;
-    height: 50px;
-    border-radius: 5px;
-    border: 0px;
-    box-shadow: 0px 2px 5px #000000;
-
-}
-
 .homeBanner button {
     background-color: #D7511D;
     width: 250px;
@@ -335,14 +283,14 @@ footer {
     color: #ffffff;
     width: 100%;
     height: 50px;
-    border-radius: 0px;border: 0px;
-
+    border-radius: 0px;
+    border: 0px;
 }
 
 
 .histImg {
     height: 50%;
-    width:  50%;
+    width: 50%;
 }
 
 
@@ -381,6 +329,10 @@ main {
     width: 100%;
     height: 100%;
 }
+
+
+
+
 
 
 /* ===== card stuf ===== */
