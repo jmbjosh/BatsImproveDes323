@@ -43,7 +43,7 @@
 }
 
 .showstitle {
-     font-family: 'Days One', sans-serif;
+    font-family: 'Days One', sans-serif;
     font-size: 36px;
     line-height: 40px;
     font-weight: 1000;
@@ -99,6 +99,7 @@ h2 {
     font-weight: 600;
     color: #7B7B7B;
 }
+
 .card h5 {
     font-size: 18px;
     line-height: 24px;
@@ -299,16 +300,19 @@ footer {
 .lightOrange a,
 .purple a,
 .brick a,
-.gray a 
-.container button {
+.gray a .container button {
     background-color: #D7511D;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 600;
+    text-decoration: none;
     color: #ffffff;
     width: 100%;
     height: 50px;
     border-radius: 0px;
     border: 0px;
 }
-
 
 
 .container a,
@@ -333,11 +337,10 @@ footer {
     color: whitesmoke;
     width: 100%;
     height: 50px;
-    hover-color: black;
 }
 
 .linkas :hover {
-  background-color: black;
+    background-color: black;
     transition-duration: .2s;
 }
 
