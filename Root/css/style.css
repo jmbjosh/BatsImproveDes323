@@ -321,7 +321,7 @@ footer {
 
 }
 
-.homeBanner button{
+.homeBanner button {
     background-color: #D7511D;
     width: 250px;
     height: 50px;
@@ -331,7 +331,14 @@ footer {
 }
 
 
-
+.container button {
+    background-color: #D7511D;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 0px 2px 5px #000000;
+}
 
 
 
@@ -352,70 +359,102 @@ footer {
 
 
 
+/* ===== card stuf ===== */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 40%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 2px 16px;
+    background-color: aqua;
+}
+
+.card img {
+    width: 100%;
+}
 
 
 
-    /* ===== for the side menu ====*/
-#mySidepanel a{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===== for the side menu ====*/
+#mySidepanel a {
     font-size: 24px;
     line-height: 24px;
     font-family: 'Baloo Tamma 2', cursive;
 }
 
 
-    /* The sidepanel menu */
-    .sidepanel {
-        height: 100%;
-        /* Specify a height */
-        width: 0;
-        /* 0 width - change this with JavaScript */
-        position: fixed;
-        /* Stay in place */
-        z-index: 1;
-        /* Stay on top */
-        top: 0;
-        right: 0;
-        background-color: #111;
-        /* Black*/
-        overflow-x: hidden;
-        /* Disable horizontal scroll */
-        padding-top: 60px;
-        /* Place content 60px from the top */
-        transition: 0.5s;
-        /* 0.5 second transition effect to slide in the sidepanel */
-    }
+/* The sidepanel menu */
+.sidepanel {
+    height: 100%;
+    /* Specify a height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: #111;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidepanel */
+}
 
-    /* The sidepanel links */
-    .sidepanel a {
-        padding: 8px 8px 8px 32px;
-        text-decoration: none;
-        font-family: 'Baloo Tamma 2', cursive;
-        font-size: 36px;
-        color: #818181;
-        display: block;
-        transition: 0.3s;
-        
-    }
+/* The sidepanel links */
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
 
-    /* When you mouse over the navigation links, change their color */
-    .sidepanel a:hover {
-        color: #f1f1f1;
-    }
+}
 
-    /* Position and style the close button (top right corner) */
-    .sidepanel .closebtn {
-        position: absolute;
-        top: 0;
-        right: 25px;
-        margin-left: 100px;
-    }
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+    color: #f1f1f1;
+}
 
-    /* Style the button that is used to open the sidepanel */
-    .openbtn {
-        cursor: pointer;
-        color: white;
-        padding: 10px 15px;
-        border: none;
-        text-align: right;
-    }
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    margin-left: 100px;
+}
 
+/* Style the button that is used to open the sidepanel */
+.openbtn {
+    cursor: pointer;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    text-align: right;
+}
