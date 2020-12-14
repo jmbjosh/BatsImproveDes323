@@ -288,15 +288,12 @@ footer {
 }
 
 
-<<<<<<< Updated upstream
 .container button,
 .lightOrange a,
 .purple a,
 .brick a,
-.gray a {
-=======
+.gray a 
 .container button {
->>>>>>> Stashed changes
     background-color: #D7511D;
     color: #ffffff;
     width: 100%;
@@ -361,7 +358,7 @@ footer {
 .shows {
     background-image: url("../assets/images/Banner.svg");
     width: 100%;
-    height: 500px;
+    height: 100%;
 }
 
 main {
