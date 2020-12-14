@@ -335,11 +335,15 @@ footer {
     color: #ffffff;
     width: 100%;
     height: 50px;
-    border-radius: 0px;
-    border: 0px;
+    border-radius: 0px;border: 0px;
 
 }
 
+
+.histImg {
+    height: 50%;
+    width:  50%;
+}
 
 
 
@@ -383,7 +387,7 @@ main {
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    width: 40%;
+    width: 50%;
     margin: 3%;
     background-color: #ffffff;
 }
