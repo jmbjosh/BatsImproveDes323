@@ -135,32 +135,21 @@ h2 {
 .coll5 {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.oneToFour {
-    grid-column-start: 1;
-    grid-column-end: 4;
-}
-
-.fourToEnd {
-    grid-column-start: 4;
-    grid-column-end: 6;
-}
-
-.threeToEnd {
-    grid-column-start: 3;
-    grid-column-end: 6;
-}
-
-.oneToThree {
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
 
 #footerMapInfo {
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
 }
+
+
+
+
+
 
 
 
@@ -286,7 +275,11 @@ footer {
 }
 
 
-.container button {
+.container a,
+.lightOrange a,
+.purple a,
+.brick a,
+.gray a {
     background-color: #D7511D;
     color: #ffffff;
     width: 100%;
@@ -295,7 +288,11 @@ footer {
     border: 0px;
 }
 
-.container a {
+.container a,
+.lightOrange a,
+.purple a,
+.brick a,
+.gray a {
     background-color: #D7511D;
     color: #ffffff;
     width: 100%;
@@ -306,8 +303,9 @@ footer {
     align-items: center;
     justify-content: center;
     bottom: 0px;
-
 }
+
+
 
 
 
@@ -354,7 +352,11 @@ main {
 }
 
 
+.reSize {
+    width: 500px;
+    height: 100%;
 
+}
 
 
 
