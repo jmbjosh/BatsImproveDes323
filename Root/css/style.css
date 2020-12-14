@@ -328,13 +328,11 @@ footer {
     background-color: #282828;
 }
 
-.homeBanner img,
-    {
+.homeBanner img {
     width: 100%;
 }
 
 .homeBanner {
-    position: relative;
     text-align: center;
     color: white;
 }
