@@ -391,6 +391,7 @@ main {
     transition: 0.3s;
     width: 40%;
     margin: 3%;
+    background-color: #ffffff;
 }
 
 .card:hover {
