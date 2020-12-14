@@ -305,9 +305,9 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    bottom: 0px;
+
 }
-
-
 
 
 
@@ -382,11 +382,9 @@ main {
 .container div {
     padding: 0px 5%;
     background-color: #ffffff;
+
+
 }
-
-
-
-
 
 
 
