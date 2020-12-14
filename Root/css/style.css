@@ -43,7 +43,7 @@
 }
 
 .showstitle {
-     font-family: 'Days One', sans-serif;
+    font-family: 'Days One', sans-serif;
     font-size: 36px;
     line-height: 40px;
     font-weight: 1000;
@@ -288,15 +288,11 @@ footer {
 }
 
 
-<<<<<<< Updated upstream
 .container button,
 .lightOrange a,
 .purple a,
 .brick a,
-.gray a {
-=======
-.container button {
->>>>>>> Stashed changes
+.gray a .container button {
     background-color: #D7511D;
     color: #ffffff;
     width: 100%;
